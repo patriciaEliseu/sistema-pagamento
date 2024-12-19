@@ -6,9 +6,18 @@ CREATE TABLE usuario (
     id_usuario INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email TEXT NOT NULL,
-    endereco TEXT NOT NULL,
+    
     senha TEXT NOT NULL
 ) ENGINE=InnoDB;
+
+
+CREATE TABLE endereco (
+    id_endereco INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    cep TEXT NOT NULL,
+    endereco VARCHAR(200),
+    
+) ENGINE=InnoDB;
+
 
 CREATE TABLE venda (
     id_venda INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
