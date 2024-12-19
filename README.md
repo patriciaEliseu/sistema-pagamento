@@ -5,6 +5,7 @@
 [X]Instalar o PHP; <br>
 [X]Instalar extensão PHP no vscode (OpenPHP/HTML, PHP Profiler);<br>
 [X]Instalar o LAMP com APACHE e MYSQL (/var/www/html/sistema-pagamento); <br>
+(localhost/sistema-pagamento)<br>
 [X]Criar bd; <br>
 [X]Fazer integração entre PHP e BD; <br>
 [ ]Fazer integração entre PHP e JavaScript; <br>
