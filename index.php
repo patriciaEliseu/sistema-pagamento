@@ -24,8 +24,13 @@
         <button class="empty-venda">Finalizar Venda</button>
       </section>
     </section>
-    
+    <?php
+   
+        include_once("conexao.php");
 
+        mysqli_close($conexao);
+
+    ?>
     <script src="script.js"></script>
   </body>
 </html>
