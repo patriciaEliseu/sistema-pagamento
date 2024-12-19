@@ -21,5 +21,6 @@ CREATE TABLE endereco (
 
 CREATE TABLE venda (
     id_venda INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
-    data_venda DATE 
+    data_venda DATE,
+    id_endereco 
 ) ENGINE=InnoDB;
